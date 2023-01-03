@@ -16,7 +16,8 @@ class Solution {
 
         for (int i = 0; i < secret.length(); i++) {
             if (secret.charAt(i) != guess.charAt(i)) {
-                if (map[guess.charAt(i) - '0'] > 0) bulls++;
+                if (map[guess.charAt(i) - '0'] > 0)
+                    bulls++;
                 map[guess.charAt(i) - '0']--;
             }
         }

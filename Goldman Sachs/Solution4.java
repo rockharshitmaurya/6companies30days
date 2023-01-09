@@ -16,7 +16,6 @@ class Solution {
                     ans += ((num * (num - 1)));
                 }
             }
-
             map.clear();
         }
 

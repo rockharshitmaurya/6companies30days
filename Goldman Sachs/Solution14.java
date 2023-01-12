@@ -1,4 +1,5 @@
 class Solution {
+    // https://leetcode.com/problems/count-nice-pairs-in-an-array/
     public int countNicePairs(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
 	int result = 0, key,mod = (int)1e9 + 7;

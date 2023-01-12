@@ -8,7 +8,8 @@ class Solution {
 
     void helper(int arrow, int alice[], int bob[], int idx, int sum) {
         if (idx == alice.length) {
-            if (arrow < 0) return;
+            if (arrow < 0)
+                return;
 
             if (sum > max) {
                 max = sum;

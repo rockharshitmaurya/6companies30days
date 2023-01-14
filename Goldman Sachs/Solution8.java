@@ -7,6 +7,7 @@ class Solution {
         helper(numArrows, aliceArrows, new int[12], 0, 0);
         return ans;
     }
+
     void helper(int arrow, int alice[], int bob[], int idx, int sum) {
         if (idx == alice.length) {
             if (arrow < 0)

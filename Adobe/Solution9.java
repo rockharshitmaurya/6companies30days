@@ -4,7 +4,7 @@ class Solution {
         dfs(root);
         return ans;
     }
-    
+    // https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
     int[] dfs(TreeNode root){
         if(root==null) return new int[]{0,0};   
         int left[]=dfs(root.left);
